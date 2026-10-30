@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#detail {
+  width: 1400px;
+  margin: auto;
+}
+#footer1 {
+  width: 1400px;
+  margin: auto;
+}
+body {
+  background-color: #eef2f6;
+}
+header {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  text-align: center;
+  height: 345px;
+}
+header p {
+  color: #c2ccd8;
+  padding: 20px 0px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 23px;
+}
+header h1 {
+  padding-top: 60px;
+  color: #38bdf8;
+  letter-spacing: 1px;
+  font-size: 3rem;
+}
+header nav a {
+  padding: 15px 26px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #353b4c;
+  border-radius: 32px;
+  color: white;
+  font-weight: 600;
+  font-size: 23px;
+  margin: 10px 15px;
+}
+header nav a:hover {
+  background-color: #0284c7;
+}
+main {
+  margin: auto;
+}
+#About,
+#Project,
+#Intro {
+  margin: 60px 50px;
+  /* box-shadow: 10px 2px 0.9 black; */
+  background-color: white;
+  padding: 10px;
+  height: 45em;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+#About figure {
+  text-align: center;
+}
+#About figcaption {
+  color: #64748b;
+  font-size: 20px;
+  margin-bottom: 2em;
+}
+#About figure img {
+  width: 280px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #0284c7;
+  margin: 20px 0px;
+  transition: all 0.5s;
+}
+#About figure img:hover {
+  transform: scale(1.05);
+}
+#About h2,
+#Project h2,
+#Intro h2 {
+  margin: 45px 0px 0px 30px;
+  padding-left: 15px;
+  font-size: 40px;
+  border-left: 10px solid #0284c7;
+}
+#About p {
+  background-color: #eef2f6;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  padding: 30px;
+  font-size: 23px;
+  margin: 2em 2em 3em 2em;
+  color: #334155;
+}
+#Project div:first-of-type {
+  margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+#Project article {
+  border: 1px solid #cdd4dc;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: #eef2f6;
+  transition: all 0.1s;
+}
+#Project article h3 {
+  font-size: 27px;
+}
+#Project article p {
+  font-size: 21px;
+  color: #64748b;
+  padding: 20px 0 29px 0;
+}
+#Project article a {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  border: 2px solid #0284c7;
+  background-color: #0284c7;
+  border-radius: 10px;
+}
+#Project article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.101);
+}
+#Project div:nth-of-type(2) {
+  background-color: #eef2f6;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 25px 0 25px;
+}
+#Project div:nth-of-type(2) h3 {
+  font-size: 26px;
+  color: #444c58;
+}
+#Project ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+#Project ul li {
+  background-color: #e0f2fe;
+  border-radius: 32px;
+  padding: 15px 30px;
+  font-size: 19px;
+  font-weight: 600;
+  color: #0369a1;
+  border: 2px solid #bae6fd;
+}
+#Project ul li:hover {
+  border: 1px solid #0369a1;
+}
+#Intro {
+  text-align: center;
+  height: 60em;
+}
+#Intro h2 {
+  margin-bottom: 50px;
+}
+#Intro video {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 700px;
+  height: 750px;
+  background-color: #cbd5e1;
+  object-fit: cover;
+}
+footer {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  height: 65em;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 50px;
+}
+footer #Contact h2 {
+  color: white;
+  font-size: 40px;
+  border-left: 10px solid #0284c7;
+  margin: 20px 10px;
+  padding-left: 15px;
+}
+footer #Contact p a {
+  text-decoration: none;
+  color: #38bdf8;
+  line-height: 50px;
+}
+footer #Contact p a:hover {
+  text-decoration: underline;
+}
+footer #Contact p {
+  font-size: 25px;
+  color: White;
+}
+
+footer #Contact label {
+  color: #cbd5e1;
+  font-weight: 550;
+  font-size: 23px;
+}
+footer #Contact input,
+textarea {
+  width: 800px;
+  height: 65px;
+  border-radius: 10px;
+  background-color: #1e283b;
+  border: 1px solid #475569;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+}
+footer #Contact textarea,
+input::placeholder {
+  font-size: 23px;
+}
+footer #Contact textarea {
+  height: 200px;
+}
+footer #Contact button {
+  background-color: #0284c7;
+  padding: 15px 35px;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid #0284c7;
+  border-radius: 10px;
+  letter-spacing: 0.2px;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(128, 128, 128, 0.348);
+  margin-top: 50px;
+}
+footer div p {
+  color: #a0adc1;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+}
+footer div span {
+  margin-top: 20px;
+}
+footer div a {
+  text-decoration: none;
+  color: #38bdf8;
+  font-size: 21px;
+}
